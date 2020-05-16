@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="javascript/sh.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Mirzapur-QUIZ</title>
+  </head>
+  <body>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Web Series Quiz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    QUIZ
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="mirzapur.html">Mirzapur</a>
+                    <a class="dropdown-item" href="scaredgame.html">Scared Games S01</a>
+                    
+                    <a class="dropdown-item" href="#">Criminam Justice</a>
+                  </div>
+                </li>
+                
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <div class="alert alert-info" role="alert">
+            Welcome to the <strong>Web Series Quisz</strong>
+          </div>
+    
+            
+            
+
+        <div class="quiz" >
+                
+                
+               
+                 
+                <h1> <marquee>Welcome To Mirzapur Quiz</marquee></h1>
+
+                <div class="container">
+                
+                <form id="quiz1" name="quiz">
+
+
+
+                      
+                        <h4 style="color:rgba(4, 236, 178, 0.774)">1.What is the full name of jay(Amitab Bacchan)</h4>
+                        <input type="radio" id="mc" name="Question1" value="Jay Kumar">Jay Kumar
+                        <input type="radio" id="mc" name="Question1" value="Jay Veru">Jay Veru<br><br>
+                        <input type="radio" id="mc" name="Question1" value="Jay Dev">Jay Dev
+                        <input type="radio" id="mc" name="Question1" value="#">Jay sing<br><br>
+                        
+                        
+                    
+                        <h4 style="color:#FFC90D">2.Fair of station to Ramgrah</h4>
+                        <input type="radio" id="mc" name="Question2" value="1"> 1
+                        <input type="radio" id="mc" name="Question2" value="2">2<br><br>
+                        <input type="radio" id="mc" name="Question1" value="1.5">1.5
+                        <input type="radio" id="mc" name="Question1" value="5">5<br><br>
+                    
+                    
+                         <h4 style="color:">3.Basanti Kaise Batein Karti Hai?</h4>
+                        <input type="radio" id="mc" name="Question3" value="Pyaari Batein">Pyaari Batein
+                        <input type="radio" id="mc" name="Question3" value="Acchi Batein">Acchi Batein<br><br>
+                        <input type="radio" id="mc" name="Question1" value="Bohot Sari Batein">Bohot Sari Batein
+                        <input type="radio" id="mc" name="Question1" value="Gandi Batein">Gandi Batein<br><br>
+
+
+                        <h4 style="color:#B7D7D8">4.what is the name of mukheri Bazar Kabutar?</h4>
+                        <input type="radio" id="mc" name="Question4" value="Brijesh mishra">Brijesh mishra
+                        <input type="radio" id="mc" name="Question4" value="Rajan mishra">Rajan mishra<br><br>
+                        <input type="radio" id="mc" name="Question4" value="#">maqbool mia
+                        <input type="radio" id="mc" name="Question4" value="#">Akhanda nand<br><br>
+                        
+
+                        <h4 style="color:#FF8984">5.Favourite icecream of ips officer ram saran mouria?</h4>
+                        <input type="radio" id="mc" name="Question5" value="Strawberry">Strawberry
+                        <input type="radio" id="mc" name="Question5" value="Vanila">Vanila<br><br>
+                        <input type="radio" id="mc" name="Question5" value="Strawberry">choclate
+                        <input type="radio" id="mc" name="Question5" value="Vanila">Butter scotch<br><br>
+
+                        <br>
+                        <hr>
+                        <!-- <input id="button" type="button" value="submit!" onclick="chek();"> -->
+                        <button type="button" id="button" type="button" value="submit!" onclick="chek();" class="btn btn-outline-danger">Submit!</button>
+                        
+                        </form>
+                        <div class="card-header" id="f"><strong>Your Result</strong></div>
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Have a good day</h5> -->
+                          <p class="card-text"> </div>
+
+                            <div id="after_submit">
+                                <p id="message"></p>
+                                <p id ="number_correct"></p>
+                                
+    
+                                </div>
+                        </div>
+                      </div>   
+                   
+
+
+                        </div>
+
+                        
+
+           
+
+
+                
+    </body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+h1{
+  animation: type 3s steps(15);
+  overflow: hidden;
+  white-space: nowrap;
+  
+
+
+}
+
+@keyframes type{
+
+  0%{
+    width:0ch;
+  }
+  100%{
+    width: 15ch;
+  }
+}

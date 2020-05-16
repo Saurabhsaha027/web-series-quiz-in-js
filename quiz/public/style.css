@@ -1,0 +1,22 @@
+/* body{
+  background-image: url('mirza.jpg'); */
+  /* background-repeat:no-repeat ; */
+/* } */
+
+  #message{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+    color: salmon;
+}
+
+#number_correct{
+
+  font-size: 22px;
+  font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+    color: slateblue;
+}
+
